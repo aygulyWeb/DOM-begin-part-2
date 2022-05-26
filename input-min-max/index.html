@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Input min-max</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="wrap">
+		<div class="cost">
+			<div class="cost-title">Цена</div>
+			<div class="cost-sub-min">
+				<span class="cost-min">Min</span>
+				<span class="cost-text-min"></span>
+			</div>
+			<div class="cost-sub-max">
+				<span class="cost-max">Max</span>
+				<span class="cost-text-max"></span>
+			</div>
+			<div class="cost-ranges">
+				<input id="min" type="range" min="0" max="10000" step="1">
+				<input id="max" type="range" min="0" max="10000" step="1">
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
